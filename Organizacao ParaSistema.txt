@@ -1,0 +1,20 @@
+
+Sistema de Eventos.
+
+3 Requisitos
+
+1- verificar se a data for posterior a data do evento OK
+    Sim: permitir o evento OK
+    Não: alertar que o cadastro não será permitido por data inválida.OK
+
+
+2- verificar se a idade é maior de 18 anos. OK
+    Sim: permitir o cadastro OK
+    Não: alertar que o cadastro não é permitido pela idade.  OK
+
+3- listar participantes e palestrantes por evento. OK
+
+4- verificar se a lista é menor que 100  OK
+    Sim: permitir cadastro  OK
+    Não: alertar que cadastro não será permitido por ter excedido o limite. OK
+ 
