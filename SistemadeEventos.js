@@ -8,12 +8,12 @@ if(DatadoEvento > 05/01/2022) {
     let IdadedoUsuário = 18
 
     if (IdadedoUsuário > 17) {
-        console.log ("Permitir Cadastro.")
+        console.log ("Idade minima ok. Pode continuar cadastro.")
     } else
-        console.log ("Idade não permitida, cadastro não concluído!")
+        console.log ("Idade não permitida, Tente novamente!")
 
 } else
-    console.log ("Cadastro não permitido por data inválida.")
+    console.log ("Cadastro não permitido por data inválida. Tente novamente!")
 
 
     let listadeParticipantes = ["ana", "Matheus", "Julia",]
@@ -21,7 +21,7 @@ if(DatadoEvento > 05/01/2022) {
 
 
     if (listadeParticipantes.length < 99) {
-        console.log ("Quantidade de participantes ok. Cadastro permitido.")
+        console.log ("Quantidade de participantes ok. Cadastro Concluído.")
     } else 
       console.log ("Quantidade excedida, limite de 100 pessoas. Casdastro não concluído.")
 
